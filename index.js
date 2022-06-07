@@ -4,7 +4,7 @@ import { Ball } from "./objects/Ball.js";
 import { Bar } from "./objects/Bar.js";
 
 
-    
+
 var board = new Board(800,400);
 var bar_1 = new Bar(20,40,40,100, board);
 console.log(bar_1);
@@ -16,7 +16,9 @@ console.log(ball);
 
 // game controller
 
-
+/**
+ * Escucha los eventos que suceden en el tablero
+ */
 document.addEventListener("keydown", (ev)=>{
     
     if(ev.keyCode == 38){
@@ -51,8 +53,9 @@ window.requestAnimationFrame(controller)
 
 
 
-// start menu
-
+/**
+ * Inicializa el juego
+ */
 function controller () {
 
     var canvas = document.getElementById("canvas");
