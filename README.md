@@ -1,4 +1,4 @@
-# PARA INICIAR EL JUEGO OPRIMA BARRA ESPACIADORA
+# -->> PARA INICIAR EL JUEGO OPRIMA BARRA ESPACIADORA  <<----
 
 # sofka-practica-javascript
 Repositorio para realizar la entrega del ejercicio práctico de JavaScript orientado a objetos
